@@ -17,5 +17,4 @@ For the first version -
 As a personal preference, I code using text based editors (vim/vi/nano) only.
 So, most of the tasks I do will be based on that. 
 
-If someone wants to adapt it for eclipse and make it consumable using maven/ant;
-feel free to.
+mvn archetype:generate -DgroupId=com.halder.barun -DartifactId=connectify -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
